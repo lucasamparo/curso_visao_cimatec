@@ -32,6 +32,22 @@ O conteúdo será inserido a medida que for apresentado na formação.
 		<li>Atividades</li>
 	</ul>
 </details>
+<details>
+<summary>Aula 2 - Dia 09/10</summary>
+	<ul>
+		<li>Conteúdo</li>
+		<ul>
+			<li>Filtros Avançados</li>
+			<li>Detecção de Bordas</li>
+			<li>Contornos</li>
+			<li>Segmentação</li>
+		</ul>
+		<li>Códigos</li>
+		<li>Slides</li>
+		<li>Atividades</li>
+	</ul>
+</details>
+
 
 ## Licença
 Todos os códigos desse repositório estão sob Licença Apache v2.

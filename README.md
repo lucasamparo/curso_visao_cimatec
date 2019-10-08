@@ -42,8 +42,8 @@ O conteúdo será inserido a medida que for apresentado na formação.
 			<li>Contornos</li>
 			<li>Segmentação</li>
 		</ul>
-		<li>Códigos</li>
-		<li>Slides</li>
+		<li><a href="https://github.com/lucasamparo/curso_visao_cimatec/tree/master/aula_2/src">Códigos</a></li>
+		<li><a href="https://docs.google.com/presentation/d/1Wq1qDFPW_y5gyuRBVttnM_P42zOoXwNC3ZeGO973Xdk/edit?usp=sharing">Slides</a></li>
 		<li>Atividades</li>
 	</ul>
 </details>

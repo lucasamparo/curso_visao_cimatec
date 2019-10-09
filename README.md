@@ -27,8 +27,8 @@ O conteúdo será inserido a medida que for apresentado na formação.
 			<li>Manipulando Arquivos e Câmeras</li>
 			<li>Filtrando Imagens</li>
 		</ul>
-		<li>Códigos</li>
-		<li>Slides</li>
+		<li><a href="https://github.com/lucasamparo/curso_visao_cimatec/tree/master/aula_2/src">Códigos</a></li>
+		<li><a href="https://docs.google.com/presentation/d/1Ldf_R9AuXB-qw9H_6CNHJIQudx7jeixW_Nn-Y4oxeOc/edit?usp=sharing">Slides</a></li>
 		<li>Atividades</li>
 	</ul>
 </details>

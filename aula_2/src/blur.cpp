@@ -47,7 +47,7 @@ int main(int argc, char ** argv) {
   
   // Apply blur filter
   Mat output;
-  blur(image, output, Size(kernel_size, kernel_size), Point(-1,-1));
+  blur(image, output, Size(kernel_size, kernel_size));
   
   showImage(unifyImages({image, output}, 1));
   

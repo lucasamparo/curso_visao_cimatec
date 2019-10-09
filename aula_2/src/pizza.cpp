@@ -38,7 +38,7 @@ int main(int argc, char ** argv) {
   string path = argv[1];
   
   // Load OpenCV image withou change anything on their color pattern
-  Mat image = imread(path, CV_LOAD_IMAGE_UNCHANGED);
+  Mat image = imread(path, cv::IMREAD_UNCHANGED);
   
   // Get image dimensions
   int cols = image.cols;
@@ -46,7 +46,7 @@ int main(int argc, char ** argv) {
   
   // Convert to grayscale
   Mat gray;
-  cvtColor(image, gray, CV_BGR2GRAY);
+  cvtColor(image, gray, cv::COLOR_BGR2GRAY);
   
   // Canny detector
   Mat canny;
@@ -55,7 +55,7 @@ int main(int argc, char ** argv) {
   // Contours
   vector<vector<Point> > contours;
   vector<Vec4i> hierarchy;
-  findContours(canny, contours, hierarchy, CV_RETR_TREE, CV_CHAIN_APPROX_SIMPLE, Point(0, 0));
+  findContours(canny, contours, hierarchy, cv::RETR_TREE, cv::CHAIN_APPROX_SIMPLE, Point(0, 0));
   
   // Draw Contours
   Mat draw = Mat::zeros(canny.size(), CV_8UC3);

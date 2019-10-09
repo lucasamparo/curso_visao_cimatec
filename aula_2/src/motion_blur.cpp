@@ -39,7 +39,7 @@ int main(int argc, char ** argv) {
   int kernel_size = stoi(argv[2]);
   
   // Load OpenCV image withou change anything on their color pattern
-  Mat image = imread(path, CV_LOAD_IMAGE_UNCHANGED);
+  Mat image = imread(path, cv::IMREAD_UNCHANGED);
   
   // Get image dimensions
   int cols = image.cols;

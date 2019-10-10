@@ -28,8 +28,7 @@ O conteúdo será inserido a medida que for apresentado na formação.
 			<li>Filtrando Imagens</li>
 		</ul>
 		<li><a href="https://github.com/lucasamparo/curso_visao_cimatec/tree/master/aula_2/src">Códigos</a></li>
-		<li><a href="https://docs.google.com/presentation/d/1Ldf_R9AuXB-qw9H_6CNHJIQudx7jeixW_Nn-Y4oxeOc/edit?usp=sharing">Slides</a></li>
-		<li>Atividades</li>
+		<li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_1/Aula%201%20-%20Introdu%C3%A7%C3%A3o%20Opencv%20e%20filtros.pdf">Slides</a></li>
 	</ul>
 </details>
 <details>
@@ -43,8 +42,7 @@ O conteúdo será inserido a medida que for apresentado na formação.
 			<li>Segmentação</li>
 		</ul>
 		<li><a href="https://github.com/lucasamparo/curso_visao_cimatec/tree/master/aula_2/src">Códigos</a></li>
-		<li><a href="https://docs.google.com/presentation/d/1Wq1qDFPW_y5gyuRBVttnM_P42zOoXwNC3ZeGO973Xdk/edit?usp=sharing">Slides</a></li>
-		<li>Atividades</li>
+		<li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_2/Aula%202%20-%20Bordas%2C%20Filtros%20Avan%C3%A7ados%20e%20Segmenta%C3%A7%C3%A3o..pdf">Slides</a></li>
 	</ul>
 </details>
 

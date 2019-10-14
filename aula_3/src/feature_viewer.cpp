@@ -45,19 +45,6 @@ Mat siftKeypoints(Mat image) {
   return output;
 }
 
-Mat suftKeypoints(Mat image) {
-  /*int minHessian = 400;
-  Ptr<SURF> detector = SURF::create( minHessian );
-  std::vector<KeyPoint> keypoints;
-  Mat descriptors1;
-  detector->detectAndCompute(image, noArray(), keypoints, descriptors);
-
-  Mat output;
-  drawKeypoints(image, keypoints, output);
-
-  return output;*/
-}
-
 Mat orbKeypoints(Mat image, int max_keypoints) {
   Mat gray;
   cvtColor(image, gray, COLOR_BGR2GRAY);

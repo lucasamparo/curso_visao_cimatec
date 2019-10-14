@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
 
-find_package(OpenCV 4)
+find_package(OpenCV 3)
 
 set (CMAKE_CXX_STANDARD 11)
 

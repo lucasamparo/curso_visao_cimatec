@@ -34,17 +34,6 @@ Mat unifyImages(vector<Mat> images, int orientation) {
   return output;
 }
 
-Mat siftKeypoints(Mat image) {
-  Ptr<Feature2D> detector = xfeatures2d::SiftFeatureDetector::create();
-  vector<KeyPoint> keypoints;
-  detector->detect(image, keypoints);
-
-  Mat output;
-  drawKeypoints(image, keypoints, output);
-
-  return output;
-}
-
 Mat orbKeypoints(Mat image, int max_keypoints) {
   Mat gray;
   cvtColor(image, gray, COLOR_BGR2GRAY);
@@ -78,12 +67,6 @@ int main(int argc, char ** argv) {
   switch(keypoint_type) {
     case 0:
       feature_image = orbKeypoints(image, max_keypoints);
-    break;
-    case 1:
-      //feature_image = siftKeypoints(image);
-    break;
-    case 2:
-      // feature_image = surfKeypoints(image);
     break;
   }
 

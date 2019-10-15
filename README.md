@@ -45,6 +45,7 @@ O conteúdo será inserido a medida que for apresentado na formação.
 		<li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_2/Aula%202%20-%20Bordas%2C%20Filtros%20Avan%C3%A7ados%20e%20Segmenta%C3%A7%C3%A3o..pdf">Slides</a></li>
 	</ul>
 </details>
+<details>
 <summary>Aula 3 - Dia 14/10</summary>
   <ul>
     <li>Conteúdo</li>

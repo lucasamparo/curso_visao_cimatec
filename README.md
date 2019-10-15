@@ -64,11 +64,11 @@ Todos os códigos desse repositório estão sob Licença Apache v2.
 Podem ser utilizados, reproduzidos e repassados sem qualquer restrição, <b>desde que os devidos créditos sejam dados</b>
 
 ## Bibliografia Básica
-<b>OpenCV: Computer Vision Projects with Python - Learning Path</b>
-Howse, Joseph & Joshi, Prateek & Beyeler, Michael.
+<b>OpenCV: Computer Vision Projects with Python - Learning Path</b><br>
+Howse, Joseph & Joshi, Prateek & Beyeler, Michael.<br>
 Editora Packt. [Disponível nesse link.](https://www.packtpub.com/application-development/opencv-computer-vision-projects-python)
 
-<b>Mastering OpenCV 3</b>
-Baggio, Daniel Lélis <i>et al.</i>
+<b>Mastering OpenCV 3</b><br>
+Baggio, Daniel Lélis <i>et al.</i><br>
 Editora Packt. [Disponível nesse link.](https://www.amazon.com/Mastering-OpenCV-Daniel-L%C3%A9lis-Baggio-ebook/dp/B01N7G0BKE)
 

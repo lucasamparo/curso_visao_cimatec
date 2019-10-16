@@ -58,6 +58,19 @@ O conteúdo será inserido a medida que for apresentado na formação.
     <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_3/aula_3.pdf">Slides</a></li>
   </ul>
 </details>
+<details>
+<summary>Aula 4 - Dia 16/10</summary>
+  <ul>
+    <li>Conteúdo</li>
+    <ul>
+      <li>Haar Cascade</li>
+      <li>Tracking de Faces</li>
+      <li>Tracking de outras partes do corpo</li>
+    </ul>
+    <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/tree/master/aula_4/src">Códigos</a></li>
+    <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_4/aula_4.pdf">Slides</a></li>
+  </ul>
+</details>
 
 ## Licença
 Todos os códigos desse repositório estão sob Licença Apache v2.

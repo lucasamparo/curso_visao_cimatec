@@ -97,15 +97,20 @@ int main(int argc, char ** argv) {
   // Compute F matrix from 7 matches
   cv::Mat fundemental = cv::findFundamentalMat(cv::Mat(selPoints1), // points in first image
                                                cv::Mat(selPoints2), // points in second image
-                                               cv::FM_7POINT);       // 7-point method
+                                               cv::FM_7POINT);
 
   std::cout << "F-Matrix size= " << fundemental.rows << "," << fundemental.cols << std::endl;
+
+  cv::Rect roi(0, 0, 3, 3);
+  cv::Mat fund_part(fundemental, roi);
+
+  std::cout << "F-Matrix size= " << fund_part.rows << "," << fund_part.cols << std::endl;
 
   // draw the left points corresponding epipolar lines in right image
   std::vector<cv::Vec3f> lines1;
   cv::computeCorrespondEpilines(cv::Mat(selPoints1), // image points
                                 1,                   // in image 1 (can also be 2)
-                                fundemental,         // F matrix
+                                fund_part,         // F matrix
                                 lines1);             // vector of epipolar lines
 
   // for all epipolar lines
@@ -117,7 +122,7 @@ int main(int argc, char ** argv) {
 
   // draw the left points corresponding epipolar lines in left image
   std::vector<cv::Vec3f> lines2;
-  cv::computeCorrespondEpilines(cv::Mat(selPoints2), 2, fundemental, lines2);
+  cv::computeCorrespondEpilines(cv::Mat(selPoints2), 2, fund_part, lines2);
   for (auto it = lines2.begin(); it != lines2.end(); ++it) {
       cv::line(image1, cv::Point(0, -(*it)[2] / (*it)[1]),
                cv::Point(image1.cols, -((*it)[2] + (*it)[0] * image1.cols) / (*it)[1]),
@@ -129,6 +134,8 @@ int main(int argc, char ** argv) {
   cv::imshow("Right Image Epilines", image1);
   cv::namedWindow("Left Image Epilines");
   cv::imshow("Left Image Epilines", image2);
+
+  cv::waitKey(0);
 
   return 0;
 }

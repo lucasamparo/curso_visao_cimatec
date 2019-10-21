@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.1)
 project(haar)
 
-set(CMAKE_GXX_FLAGS "-Wall -Wextra -Wconversion  -pedantic -std=gnu11")
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_GXX_FLAGS "-Wall -Wextra -Wconversion  -pedantic")
 
 find_package(OpenCV REQUIRED)
 

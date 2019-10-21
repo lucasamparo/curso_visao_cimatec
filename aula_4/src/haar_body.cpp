@@ -34,11 +34,11 @@ void detectAndDisplay( Mat frame ) {
   std::vector<Rect> body;
   Mat frame_gray;
 
-  cvtColor( frame, frame_gray, CV_BGR2GRAY );
+  cvtColor( frame, frame_gray, COLOR_BGR2GRAY );
   equalizeHist( frame_gray, frame_gray );
 
   //-- Detect faces
-  body_cascade.detectMultiScale( frame_gray, body, 1.01, 2, 0|CV_HAAR_SCALE_IMAGE, Size(30, 30) );
+  body_cascade.detectMultiScale( frame_gray, body, 1.01, 2, 0|CASCADE_SCALE_IMAGE, Size(30, 30) );
 
   for( size_t i = 0; i < body.size(); i++ ) {
     Point center( body[i].x + body[i].width*0.5, body[i].y + body[i].height*0.5 );
@@ -46,6 +46,5 @@ void detectAndDisplay( Mat frame ) {
   }
   //-- Show what you got
   imshow( window_name, frame );
-  imwrite("output.png", frame);
 }
 

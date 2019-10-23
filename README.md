@@ -86,6 +86,20 @@ O conteúdo será inserido a medida que for apresentado na formação.
     <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_5/aula_5.pdf">Slides</a></li>
   </ul>
 </details>
+<details>
+<summary>Aula 5 - Dia 23/10</summary>
+  <ul>
+    <li>Conteúdo</li>
+    <ul>
+      <li>Objeto 3D</li>
+      <li>Sensores</li>
+      <li>Shape from Motion</li>
+      <li>ICP</li>
+      <li>Registration</li>
+    </ul>
+    <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_5/aula_6.pdf">Slides</a></li>
+  </ul>
+</details>
 
 ## Licença
 Todos os códigos desse repositório estão sob Licença Apache v2.

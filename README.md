@@ -87,7 +87,7 @@ O conteúdo será inserido a medida que for apresentado na formação.
   </ul>
 </details>
 <details>
-<summary>Aula 5 - Dia 23/10</summary>
+<summary>Aula 6 - Dia 23/10</summary>
   <ul>
     <li>Conteúdo</li>
     <ul>

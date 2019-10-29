@@ -97,7 +97,20 @@ O conteúdo será inserido a medida que for apresentado na formação.
       <li>ICP</li>
       <li>Registration</li>
     </ul>
-    <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_5/aula_6.pdf">Slides</a></li>
+    <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_6/aula_6.pdf">Slides</a></li>
+  </ul>
+</details>
+<summary>Aula 7 - Dia 28/10</summary>
+  <ul>
+    <li>Conteúdo</li>
+    <ul>
+      <li>Saliência Visual</li>
+      <li>Mean Shift</li>
+      <li>Padrões Visuais</li>
+      <li>Support Vector Machine</li>
+      <li>Introdução a Machine Learning</li>
+    </ul>
+    <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_7/aula_7.pdf">Slides</a></li>
   </ul>
 </details>
 

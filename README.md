@@ -100,6 +100,7 @@ O conteúdo será inserido a medida que for apresentado na formação.
     <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_6/aula_6.pdf">Slides</a></li>
   </ul>
 </details>
+<details>
 <summary>Aula 7 - Dia 28/10</summary>
   <ul>
     <li>Conteúdo</li>

@@ -114,6 +114,18 @@ O conteúdo será inserido a medida que for apresentado na formação.
     <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_7/aula_7.pdf">Slides</a></li>
   </ul>
 </details>
+<details>
+<summary>Aula 8 - Dia 30/10</summary>
+  <ul>
+    <li>Conteúdo</li>
+    <ul>
+      <li>Reconhecimento em Geral</li>
+      <li>Reconhecimento Facial</li>
+      <li>Reconhecimento de Emoções</li>
+    </ul>
+    <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_8/aula_8.pdf">Slides</a></li>
+  </ul>
+</details>
 
 ## Licença
 Todos os códigos desse repositório estão sob Licença Apache v2.

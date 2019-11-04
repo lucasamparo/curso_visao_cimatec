@@ -1,6 +1,0 @@
-/home/lucasamparo/Documentos/curso_codigos/final/build/CMakeFiles/rebuild_cache.dir
-/home/lucasamparo/Documentos/curso_codigos/final/build/CMakeFiles/pencil.dir
-/home/lucasamparo/Documentos/curso_codigos/final/build/CMakeFiles/oil.dir
-/home/lucasamparo/Documentos/curso_codigos/final/build/CMakeFiles/puzzle.dir
-/home/lucasamparo/Documentos/curso_codigos/final/build/CMakeFiles/edit_cache.dir
-/home/lucasamparo/Documentos/curso_codigos/final/build/CMakeFiles/cubes.dir

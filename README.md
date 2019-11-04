@@ -126,6 +126,19 @@ O conteúdo será inserido a medida que for apresentado na formação.
     <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/aula_8/aula_8.pdf">Slides</a></li>
   </ul>
 </details>
+<details>
+<summary>Desafios Finais - Dia 01/11</summary>
+  <ul>
+    <li>Conteúdo</li>
+    <ul>
+      <li>Puzzle</li>
+      <li>Oil in Canvas</li>
+      <li>Pencil Sketch</li>
+      <li>Cubic Mosaic</li>
+    </ul>
+    <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/desafios/">Código</a></li>
+  </ul>
+</details>
 
 ## Licença
 Todos os códigos desse repositório estão sob Licença Apache v2.

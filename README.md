@@ -136,7 +136,7 @@ O conteúdo será inserido a medida que for apresentado na formação.
       <li>Pencil Sketch</li>
       <li>Cubic Mosaic</li>
     </ul>
-    <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/blob/master/desafios/">Código</a></li>
+    <li><a href="https://github.com/lucasamparo/curso_visao_cimatec/tree/master/dasafios">Código</a></li>
   </ul>
 </details>
 
